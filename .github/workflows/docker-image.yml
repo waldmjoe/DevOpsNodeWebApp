@@ -31,7 +31,6 @@ jobs:
           push: true
           tags:
             waldmjoe/node-web-app:${{ github.sha }}
-            waldmjoe/node-web-app:latest
 
   azure-deploy:
     permissions:
